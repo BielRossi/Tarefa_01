@@ -1,0 +1,318 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    font-family: "Roboto", sans-serif;;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+    width: 50%;
+}
+.container{
+    width: 80rem
+
+}
+header{
+    display: flex;
+    color: #FFF;
+    width: auto;
+    height: 4rem;
+    justify-content: space-between;
+    align-items: center;
+}
+header a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    margin: 10px 30px 10px 30px;
+    text-decoration: none;
+    list-style: none;
+}
+.logo img{
+    width: 8rem;
+}
+.line01{
+    display: flex;
+}
+.box-left,
+.box-right{
+    width: 40rem;
+    margin-top: 2rem;
+}
+.box-left h5{
+    font-size: calc(1.275rem + .3vw)!important;
+    color: #0dcaf0;
+}
+.box-left h1{
+    font-size: calc(1.625rem + 3.5vw);
+}
+.box-left h1 span{
+    background: -webkit-linear-gradient(90deg, rgba(13,202,240,1) 0%, rgba(2,198,210,1) 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.box-left p{
+    color: rgb(108, 117, 125);
+}
+.box-left button,
+.row .col-left button{
+    width: 15rem;
+    height: 4rem;
+    background: -webkit-linear-gradient(90deg, rgba(13,202,240,1) 0%, rgba(2,198,210,1) 100%);
+    border: none;
+    color: #FFF;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+.box-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line02{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    height: 10rem;
+    background: linear-gradient(45deg, rgba(5,137,220,1) 0%, rgba(2,198,210,1) 100%);
+}
+.line02 .col,
+.line02 .col-m{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+.line02 .col img{
+    width: 3rem;
+}
+.line02 .col-m img{
+    width: 8rem;
+}
+.row{
+    display: flex;
+    justify-content: end;
+    width: 80rem;
+}
+.row .col-left{
+    width: 40%;
+    height: 30rem;
+}
+.row .col-left h5{
+    font-size: calc(1.275rem + .3vw)!important;
+    background: -webkit-linear-gradient(90deg, rgba(13,202,240,1) 0%, rgba(2,198,210,1) 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.row .col-left h2{
+    font-size: calc(1.625rem + .8vw);
+    margin-top: 1rem;
+}
+.row .col-left h2 span{
+    background: -webkit-linear-gradient(90deg, rgba(13,202,240,1) 0%, rgba(2,198,210,1) 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.row .col{
+    width: 30%;
+    height: 30rem;
+    background-color: #181717;
+    border:  1px solid #2E2E2E;
+    padding: 4rem 3rem;
+}
+.row .col:hover{
+    background-color: #2E2E2E;
+}
+.row .col p,
+.row .col h2{
+    margin-bottom: 2rem;
+}
+.row .col .botao{
+    display: flex;
+    justify-content: end;
+}
+.row .col .botao button{
+    width: 4rem;
+    height: 4rem;
+    border: none;
+    font-size: 3rem;
+}
+.row .col:hover button,
+.row .col .botao:hover button p{
+    background: -webkit-linear-gradient(90deg, rgba(13,202,240,1) 0%, rgba(2,198,210,1) 100%);
+    color: #FFF;
+}
+.row02{
+    display: flex;
+    justify-content: left;
+    width: 80rem
+}
+.col-left02{
+    display: inline-block;
+    justify-content: left;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+.valores{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.valores h6{
+    display: flex;
+}
+
+.row02 .col-left02 h6{
+    font-size: calc(1.175rem + .2vw)!important;
+    color: #0dcaf0;
+    margin-top: 7rem;
+}
+.row02 .col-left02 h2{
+    font-size: calc(1.625rem + .8vw);
+    margin-top: 1rem;
+}
+.row02 .col-left02 h6{
+    color: -webkit-linear-gradient(90deg, rgba(13,202,240,1) 0%, rgba(2,198,210,1) 100%);
+    justify-content: center;
+    align-items: center;
+}
+.row02 .col-left02 h2 span{
+    background: -webkit-linear-gradient(90deg, rgba(13,202,240,1) 0%, rgba(2,198,210,1) 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.row02 .col-left02 p{
+    font-size: .3rem;
+    margin-top: 1rem;
+
+}
+.line03{
+    margin-top: 10rem;
+    display: flex;
+}
+.line03 img{
+    width: 80%;
+}
+.line03 .col-left03 h2{
+    margin-bottom: 1rem;
+}
+.col-left03{
+    display: flex;
+    margin: 7rem;
+}
+.line03 .col-left03 h2 span{
+    color:linear-gradient(90deg, rgba(13,202,240,1) 0%, rgba(2,198,210,1) 100%);
+}
+.row04{
+    display: flex;
+    justify-content: center;
+}
+.row04 .caixinha{
+    display: flex;
+    margin: 13rem;
+}
+.row04
+.caixinha01:hover{
+    background-color: #2E2E2E;
+}
+.row04
+.caixinha02:hover{
+    background-color: #2E2E2E;
+}
+.row04
+.caixinha03:hover{
+    background-color: #2E2E2E;
+}
+
+.caixinha .col{
+    width: 30%;
+    height: 30rem;
+    background-color: #181717;
+    border:  1px solid #2E2E2E;
+    padding: 4rem 3rem;
+}
+.caixamae{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+}
+.caixona{
+    display: block;
+    width: 50rem;
+    height: 20rem;
+    background: -webkit-linear-gradient(90deg, rgba(13,202,240,1) 0%, rgba(2,198,210,1) 100%);
+}
+.caixona h2{
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+
+}
+.caixamae .caixona.botao {
+    background: #fff;
+    color: (90deg, rgba(13,202,240,1) 0%, rgba(2,198,210,1) 100%);
+    justify-content: flex-end;
+    align-items: center;
+}
+.botao02{
+    display: flex;
+    justify-content: center;
+    
+}
+.final{
+    display: flex;
+    margin-top: 50px;
+}
+.semifinal{
+    display: inline-block;
+    margin-right: 30px;
+}
+.company{
+    display: block;
+    margin-right: 30px;
+}
+.company ul{
+    color: #FFF;
+    margin-right: 30px;
+}
+.join{
+    margin-right: 30px;
+    display: flex;
+
+}
+input{
+    width: 10rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col-s img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    width: 40rem;
+}
+.foto img{
+    width: 25rem;
+    height: 20rem;
+}
